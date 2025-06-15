@@ -1,4 +1,6 @@
+// src/homepage.jsx
 import React from "react";
+import { Link } from "react-router-dom"; // ✅ Import Link
 
 const products = [
   {
@@ -18,20 +20,37 @@ const products = [
   },
 ];
 
-function App() {
+function Home() {
   return (
     <div className="min-h-screen bg-gray-100 text-gray-900 font-sans">
       {/* Header */}
       <header className="bg-black text-white">
         <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
           <h1 className="text-2xl font-bold">ElectroMart</h1>
-          <nav>
+
+          <nav className="flex items-center space-x-6">
             <ul className="flex space-x-6 font-semibold">
               <li><a href="#" className="hover:text-orange-500">Home</a></li>
               <li><a href="#" className="hover:text-orange-500">Products</a></li>
               <li><a href="#" className="hover:text-orange-500">Deals</a></li>
               <li><a href="#" className="hover:text-orange-500">Support</a></li>
             </ul>
+
+            {/* ✅ Login & Sign Up Buttons */}
+            <div className="space-x-3 ml-6">
+              <Link
+                to="/login"
+                className="border border-white text-white px-4 py-1 rounded hover:bg-white hover:text-black transition"
+              >
+                Login
+              </Link>
+              <Link
+                to="/signup"
+                className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-1 rounded transition"
+              >
+                Sign Up
+              </Link>
+            </div>
           </nav>
         </div>
       </header>
@@ -69,4 +88,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
