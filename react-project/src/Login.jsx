@@ -1,4 +1,3 @@
-// src/pages/Login.jsx
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 
@@ -51,15 +50,15 @@ const Login = () => {
           <a href="#" className="text-gray-700 hover:text-blue-600 hover:underline">Forgot password?</a>
         </div>
 
-        {/* Login button */}
+        {/* ✅ Login button - Redirect to /product */}
         <button
-          onClick={() => navigate('/')} // change this to your target after login
+          onClick={() => navigate('/product')}
           className="w-full py-3 rounded-full bg-blue-500 text-white font-semibold shadow-lg hover:bg-blue-600 transition mt-4"
         >
           LOGIN
         </button>
 
-        {/* ✅ Signup Link to route to /signup */}
+        {/* Signup link */}
         <p className="text-sm text-gray-700 mt-4">
           Don't have an account?{' '}
           <Link to="/signup" className="text-blue-600 hover:underline font-semibold">

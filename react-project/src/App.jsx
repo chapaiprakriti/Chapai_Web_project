@@ -5,7 +5,8 @@ import './App.css';
 
 import Home from './homepage';
 import Login from './Login';
-import Signup from './signup'; // Make sure the file is named exactly `signup.jsx`
+import Signup from './signup';
+import Product from './product'; // ✅ Make sure your file is named `product.jsx`
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
 
         {/* Signup Page Route */}
         <Route path="/signup" element={<Signup />} />
+
+        {/* ✅ Product Page Route */}
+        <Route path="/product" element={<Product />} />
       </Routes>
     </div>
   );
