@@ -25,6 +25,7 @@ module.exports = pool;
 
 // -- STEP 2: Connect to the database
 // -- \c electro_mart
+//electro mart
 
 // -- STEP 3: Create ENUM type for user roles
 // CREATE TYPE user_role AS ENUM ('buyer', 'seller');
