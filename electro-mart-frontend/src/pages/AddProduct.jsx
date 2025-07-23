@@ -43,6 +43,7 @@ export default function AddProduct() {
         const data = await response.json();
         setError(data.error || 'Failed to add product');
         return;
+        //return
       }
 
       navigate('/seller/products');
