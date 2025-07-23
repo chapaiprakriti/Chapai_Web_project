@@ -50,6 +50,7 @@ router.post('/', verifyToken, async (req, res) => {
     // If item already in cart → update quantity
     const existing = await db.query(
       'SELECT * FROM cart_items WHERE buyer_id = $1 AND product_id = $2',
+      //select
       [buyerId, product_id]
       //buyer
     );
