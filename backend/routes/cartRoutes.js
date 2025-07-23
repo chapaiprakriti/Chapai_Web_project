@@ -24,6 +24,7 @@ router.get('/', verifyToken, async (req, res) => {
   } catch (error) {
     console.error('Error fetching cart items:', error);
     res.status(500).json({ error: 'Server error fetching cart' });
+    //res
   }
 });
 
