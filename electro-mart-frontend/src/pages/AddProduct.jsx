@@ -86,6 +86,7 @@ export default function AddProduct() {
               onChange={(e) => setDescription(e.target.value)}
               className="w-full bg-gray-800 border border-gray-500 rounded px-4 py-2 h-24 resize-none focus:outline-none focus:ring-2 focus:ring-orange-500"
               required
+              //req
             ></textarea>
           </div>
 
