@@ -68,6 +68,7 @@ router.post('/', verifyToken, async (req, res) => {
     const result = await db.query(
       `INSERT INTO cart_items (buyer_id, product_id, quantity)
        VALUES ($1, $2, $3)
+       //value
        RETURNING *`,
       [buyerId, product_id, quantity]
     );
