@@ -37,6 +37,7 @@ router.post('/', verifyToken, async (req, res) => {
 
   if (!product_id || !quantity || quantity < 1) {
     return res.status(400).json({ error: 'Invalid product_id or quantity' });
+    //return
   }
 
   try {
