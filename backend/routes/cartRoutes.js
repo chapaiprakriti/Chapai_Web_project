@@ -71,6 +71,7 @@ router.post('/', verifyToken, async (req, res) => {
        VALUES ($1, $2, $3)
        //value
        RETURNING *`,
+       //ret
       [buyerId, product_id, quantity]
     );
 
