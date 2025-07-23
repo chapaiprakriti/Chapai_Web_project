@@ -35,6 +35,7 @@ export default function AddProduct() {
           Authorization: `Bearer ${token}`,
         },
         body: JSON.stringify(productData),
+        //body
       });
 
       if (!response.ok) {
