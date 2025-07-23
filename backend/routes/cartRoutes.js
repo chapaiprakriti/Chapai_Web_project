@@ -77,6 +77,7 @@ router.post('/', verifyToken, async (req, res) => {
 
     res.status(201).json(result.rows[0]);
   } catch (error) {
+    //catch
     console.error('Error adding to cart:', error);
     res.status(500).json({ error: 'Server error adding to cart' });
   }
