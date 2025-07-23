@@ -8,6 +8,7 @@ const { verifyToken } = require('../middleware/auth');
 // ==============================
 router.get('/', verifyToken, async (req, res) => {
   const buyerId = req.user.id;
+  //try
 
   try {
     const result = await db.query(
