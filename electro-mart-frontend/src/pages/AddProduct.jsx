@@ -96,6 +96,7 @@ export default function AddProduct() {
               type="number"
               step="0.01"
               min="0"
+              //min
               value={price}
               onChange={(e) => setPrice(e.target.value)}
               className="w-full bg-gray-800 border border-gray-500 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-500"
