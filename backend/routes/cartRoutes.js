@@ -66,6 +66,7 @@ router.post('/', verifyToken, async (req, res) => {
 
     // Insert new cart item
     const result = await db.query(
+      //const
       `INSERT INTO cart_items (buyer_id, product_id, quantity)
        VALUES ($1, $2, $3)
        //value
