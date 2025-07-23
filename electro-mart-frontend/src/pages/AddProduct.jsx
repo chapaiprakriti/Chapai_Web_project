@@ -17,6 +17,7 @@ export default function AddProduct() {
       setError('Please fill all required fields');
       return;
     }
+    //conts
 
     const productData = {
       name,
