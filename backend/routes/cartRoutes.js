@@ -59,6 +59,7 @@ router.post('/', verifyToken, async (req, res) => {
       const updated = await db.query(
         'UPDATE cart_items SET quantity = quantity + $1 WHERE buyer_id = $2 AND product_id = $3 RETURNING *',
         [quantity, buyerId, product_id]
+        //quantity
       );
       return res.status(200).json(updated.rows[0]);
     }
