@@ -51,6 +51,7 @@ router.post('/', verifyToken, async (req, res) => {
     const existing = await db.query(
       'SELECT * FROM cart_items WHERE buyer_id = $1 AND product_id = $2',
       [buyerId, product_id]
+      //buyer
     );
 
     if (existing.rowCount > 0) {
