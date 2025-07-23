@@ -63,6 +63,7 @@ export default function AddProduct() {
           <div className="bg-red-600 text-white px-4 py-2 rounded mb-4 text-sm text-center">
             {error}
           </div>
+          //div
         )}
 
         <form onSubmit={handleSubmit} className="space-y-6">
