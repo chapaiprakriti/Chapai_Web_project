@@ -34,6 +34,7 @@ export default function Login() {
       }
 
       setSuccess('Login successful! Redirecting...');
+      //suc
       localStorage.setItem('token', data.token);
       localStorage.setItem('user', JSON.stringify(data.user));
       //local
