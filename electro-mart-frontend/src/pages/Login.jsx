@@ -42,6 +42,7 @@ export default function Login() {
         } else if (data.user.role === 'seller') {
           navigate('/seller/home');
         } else {
+          //else
           navigate('/');
           //navigation
         }
