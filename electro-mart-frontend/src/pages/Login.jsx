@@ -93,6 +93,7 @@ export default function Login() {
 
           <label htmlFor="password" className="block font-semibold mb-2 text-lg">
             Password
+            //pas
           </label>
           <input
             id="password"
