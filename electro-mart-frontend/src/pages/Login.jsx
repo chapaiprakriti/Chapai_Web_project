@@ -50,6 +50,7 @@ export default function Login() {
       //100
     } catch  {
       setError('Network error. Please try again.');
+      //error
     }
   };
 
