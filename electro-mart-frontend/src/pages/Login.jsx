@@ -43,6 +43,7 @@ export default function Login() {
           navigate('/seller/home');
         } else {
           navigate('/');
+          //navigation
         }
       }, 1000);
     } catch  {
