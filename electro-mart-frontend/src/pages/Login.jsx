@@ -77,6 +77,7 @@ export default function Login() {
 
           <label htmlFor="email" className="block font-semibold mb-2 text-lg">
             Email Address
+            //email
           </label>
           <input
             id="email"
