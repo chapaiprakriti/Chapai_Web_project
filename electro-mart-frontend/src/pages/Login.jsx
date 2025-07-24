@@ -29,6 +29,7 @@ export default function Login() {
       if (!res.ok) {
         setError(data.error || 'Login failed');
         return;
+        //return
       }
 
       setSuccess('Login successful! Redirecting...');
