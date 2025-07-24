@@ -36,8 +36,12 @@ export default function Login() {
       setSuccess('Login successful! Redirecting...');
       localStorage.setItem('token', data.token);
       localStorage.setItem('user', JSON.stringify(data.user));
+      //local
+
 
       setTimeout(() => {
+        //timecd "C:\Users\Acer\Desktop\electro-mart"
+
         if (data.user.role === 'buyer') {
           navigate('/buyer/home');
         } else if (data.user.role === 'seller') {
