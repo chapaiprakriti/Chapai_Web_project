@@ -117,6 +117,7 @@ export default function Login() {
               className="text-orange-400 hover:text-orange-500 font-semibold"
             >
               Create an account
+              //acc
             </Link>
           </p>
         </form>
