@@ -73,6 +73,7 @@ export default function Login() {
             <div className="mb-6 p-3 bg-green-600 bg-opacity-30 border border-green-400 text-green-100 rounded">
               {success}
             </div>
+            //div
           )}
 
           <label htmlFor="email" className="block font-semibold mb-2 text-lg">
@@ -85,6 +86,7 @@ export default function Login() {
             className="w-full mb-6 px-4 py-3 rounded-md text-black focus:outline-none focus:ring-2 focus:ring-orange-500"
             placeholder="you@example.com"
             value={email}
+            //value
             onChange={(e) => setEmail(e.target.value)}
             required
           />
