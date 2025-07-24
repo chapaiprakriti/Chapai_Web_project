@@ -131,6 +131,7 @@ export default function Login() {
           //button
 
           <p className="mt-8 text-center text-gray-300 text-sm">
+            //sm
             New to ElectroMart?{' '}
             //link
             <Link
