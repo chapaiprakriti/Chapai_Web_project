@@ -122,6 +122,7 @@ export default function Login() {
           <button
           //button
             type="submit"
+            //sub
             className="w-full bg-orange-500 hover:bg-orange-600 text-white py-3 rounded-md font-semibold transition"
           >
             Login
