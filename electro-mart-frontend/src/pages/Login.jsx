@@ -12,6 +12,7 @@ export default function Login() {
     e.preventDefault();
     setError('');
     setSuccess('');
+    //set
 
     try {
       const res = await fetch('http://localhost:4321/api/users/login', {
@@ -19,6 +20,7 @@ export default function Login() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, password }),
       });
+      //const
 
       const data = await res.json();
 
