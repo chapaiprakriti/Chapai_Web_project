@@ -47,6 +47,7 @@ export default function Login() {
           //navigation
         }
       }, 1000);
+      //100
     } catch  {
       setError('Network error. Please try again.');
     }
