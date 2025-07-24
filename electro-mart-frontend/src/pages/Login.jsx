@@ -107,6 +107,7 @@ export default function Login() {
             //pas
           </label>
           <input
+          //inp
             id="password"
             type="password"
             className="w-full mb-8 px-4 py-3 rounded-md text-black focus:outline-none focus:ring-2 focus:ring-orange-500"
