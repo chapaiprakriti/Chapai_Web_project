@@ -115,6 +115,7 @@ export default function Login() {
 
           <p className="mt-8 text-center text-gray-300 text-sm">
             New to ElectroMart?{' '}
+            //link
             <Link
               to="/signup"
               className="text-orange-400 hover:text-orange-500 font-semibold"
