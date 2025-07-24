@@ -101,6 +101,7 @@ export default function Login() {
             className="w-full mb-8 px-4 py-3 rounded-md text-black focus:outline-none focus:ring-2 focus:ring-orange-500"
             placeholder="Your password"
             value={password}
+            //value
             onChange={(e) => setPassword(e.target.value)}
             required
           />
