@@ -43,6 +43,7 @@ export default function Signup() {
       const data = await res.json();
 
       if (!res.ok) {
+        //ok
         setErrorMsg(data.error || 'Signup failed');
       } else {
         setSuccessMsg('Signup successful! Redirecting to login...');
