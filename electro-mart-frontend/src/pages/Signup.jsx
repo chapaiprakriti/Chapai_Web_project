@@ -18,6 +18,7 @@ export default function Signup() {
     e.preventDefault();
     setErrorMsg('');
     setSuccessMsg('');
+    //set
 
     if (password !== confirmPassword) {
       setErrorMsg("Passwords don't match");
