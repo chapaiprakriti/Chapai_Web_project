@@ -10,6 +10,7 @@ export default function Signup() {
   const [confirmPassword, setConfirmPassword] = useState('');
   const [errorMsg, setErrorMsg] = useState('');
   const [successMsg, setSuccessMsg] = useState('');
+  //state
 
   const navigate = useNavigate();
   //gate
