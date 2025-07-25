@@ -6,6 +6,7 @@ export default function ProductPage() {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
+    //effect
     // Replace with your actual backend API endpoint
     axios.get('http://localhost:4321/api/products')
       .then(res => setProducts(res.data))
