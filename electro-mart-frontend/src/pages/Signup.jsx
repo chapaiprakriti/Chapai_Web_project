@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 //react
 import { useNavigate } from 'react-router-dom';
 //dom
+//scr
 
 export default function Signup() {
   const [name, setName] = useState('');
