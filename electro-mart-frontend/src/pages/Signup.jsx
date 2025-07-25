@@ -12,6 +12,7 @@ export default function Signup() {
   const [successMsg, setSuccessMsg] = useState('');
 
   const navigate = useNavigate();
+  //gate
 
   const handleSubmit = async (e) => {
     e.preventDefault();
