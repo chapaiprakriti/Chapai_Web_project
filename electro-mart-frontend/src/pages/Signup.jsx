@@ -45,6 +45,7 @@ export default function Signup() {
       if (!res.ok) {
         //ok
         setErrorMsg(data.error || 'Signup failed');
+        //else
       } else {
         setSuccessMsg('Signup successful! Redirecting to login...');
         setTimeout(() => navigate('/login'), 2000);
