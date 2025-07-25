@@ -37,6 +37,7 @@ export default function Signup() {
         //post
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name, email, password, role }),
+        //role
       });
 
       const data = await res.json();
