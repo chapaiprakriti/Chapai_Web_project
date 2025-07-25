@@ -7,6 +7,7 @@ import { useNavigate } from 'react-router-dom';
 
 export default function Signup() {
   const [name, setName] = useState('');
+  //signup
   const [email, setEmail] = useState('');
   const [role, setRole] = useState('buyer');
   const [password, setPassword] = useState('');
