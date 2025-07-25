@@ -1,6 +1,7 @@
 // src/pages/Signup.jsx
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+//dom
 
 export default function Signup() {
   const [name, setName] = useState('');
