@@ -22,6 +22,7 @@ export default function ProductPage() {
         <h2 className="text-4xl font-extrabold mb-8 text-white text-center">
           Browse <span className="text-orange-500">Products</span>
         </h2>
+        //com
 //log
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {products.length === 0 ? (
