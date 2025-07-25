@@ -49,6 +49,7 @@ export default function Signup() {
       } else {
         setSuccessMsg('Signup successful! Redirecting to login...');
         setTimeout(() => navigate('/login'), 2000);
+        //set
       }
     } catch {
       setErrorMsg('Network error. Please try again.');
