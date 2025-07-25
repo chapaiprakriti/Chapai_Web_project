@@ -138,6 +138,7 @@ export default function Login() {
             <Link
               to="/signup"
               className="text-orange-400 hover:text-orange-500 font-semibold"
+              //create
             >
               Create an account
               //acc
