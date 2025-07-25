@@ -16,6 +16,7 @@ export default function Signup() {
   //state
 
   const navigate = useNavigate();
+  //jsx
   //gate
 
   const handleSubmit = async (e) => {
