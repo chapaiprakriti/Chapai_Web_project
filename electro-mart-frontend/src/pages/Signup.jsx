@@ -34,6 +34,7 @@ export default function Signup() {
     try {
       const res = await fetch('http://localhost:4321/api/users/register', {
         method: 'POST',
+        //post
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name, email, password, role }),
       });
