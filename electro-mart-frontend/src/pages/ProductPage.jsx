@@ -8,6 +8,7 @@ export default function ProductPage() {
   useEffect(() => {
     //effect
     // Replace with your actual backend API endpoint
+    //start
     axios.get('http://localhost:4321/api/products')
       .then(res => setProducts(res.data))
       .catch(err => {
