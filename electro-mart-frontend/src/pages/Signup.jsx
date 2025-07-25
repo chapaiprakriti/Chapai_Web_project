@@ -16,6 +16,7 @@ export default function Signup() {
   //gate
 
   const handleSubmit = async (e) => {
+    //e
     //ef
     e.preventDefault();
     //ef
