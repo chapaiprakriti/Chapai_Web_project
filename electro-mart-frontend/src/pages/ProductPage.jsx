@@ -30,6 +30,7 @@ export default function ProductPage() {
           ) : (
             products.map(product => (
               <ProductCard key={product.id} product={product} />
+              //sub
             ))
           )}
         </div>
