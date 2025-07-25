@@ -4,6 +4,7 @@ import ProductCard from '../components/ProductCard';
 //1
 export default function ProductPage() {
   const [products, setProducts] = useState([]);
+  //usestate
 
   useEffect(() => {
     //effect
