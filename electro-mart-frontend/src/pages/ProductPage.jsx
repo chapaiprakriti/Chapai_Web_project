@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import ProductCard from '../components/ProductCard';
-
+//1
 export default function ProductPage() {
   const [products, setProducts] = useState([]);
 
