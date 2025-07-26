@@ -87,9 +87,9 @@ export default function Login() {
 
           <label htmlFor="email" className="block font-semibold mb-2 text-lg">
             Email Address
-            //email
+            
           </label>
-          //lable
+          
           <input
             id="email"
             type="email"
@@ -104,7 +104,7 @@ export default function Login() {
 
           <label htmlFor="password" className="block font-semibold mb-2 text-lg">
             Password
-            //pas
+          
           </label>
           <input
           //inp
@@ -118,8 +118,6 @@ export default function Login() {
             required
             //req
           />
-          //on
-          //vc
 
           <button
           //button
@@ -128,21 +126,16 @@ export default function Login() {
             className="w-full bg-orange-500 hover:bg-orange-600 text-white py-3 rounded-md font-semibold transition"
           >
             Login
-            //login
           </button>
-          //button
 
           <p className="mt-8 text-center text-gray-300 text-sm">
-            //sm
             New to ElectroMart?{' '}
-            //link
             <Link
               to="/signup"
               className="text-orange-400 hover:text-orange-500 font-semibold"
               //create
             >
               Create an account
-              //acc
             </Link>
           </p>
         </form>
